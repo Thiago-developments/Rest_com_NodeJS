@@ -1,0 +1,26 @@
+{
+  "name": "rest_com_nodejs",
+  "version": "1.0.0",
+  "description": "Rest_com_NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thiagofatec/Rest_com_NodeJS.git"
+  },
+  "author": "thiago sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thiagofatec/Rest_com_NodeJS/issues"
+  },
+  "homepage": "https://github.com/Thiagofatec/Rest_com_NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
