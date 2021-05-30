@@ -6,7 +6,7 @@ class Tables {
   }
 
   createAttendance() {
-    const sql = 'CREATE TABLE IF NOT EXISTS Attendance (id int NOT NULL AUTO_INCREMENT, customer varchar(50) NOT NULL, pet varchar(20), services varchar(20) NOT NULL, status varchar(20) NOT NULL, notes text, PRIMARY KEY(id) )'
+    const sql = 'CREATE TABLE IF NOT EXISTS Attendance (id int NOT NULL AUTO_INCREMENT, customer varchar(50) NOT NULL, pet varchar(20), services varchar(20) NOT NULL, date datetime NOT NULL, creationDate datetime NOT NULL, status varchar(20) NOT NULL, notes text, PRIMARY KEY(id) )'
     
     this.connection.query(sql, (erro) => {
         if (erro) {
